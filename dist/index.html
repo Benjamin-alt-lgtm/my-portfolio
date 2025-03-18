@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio</title>
+</head>
+
+<body class="bg-[#021b2e]">
+    <header class="px-28 shadow-md">
+        <div class="flex items-center text-[#08bca5] gap-10 md:px-[10pc]">
+            <div class="px-10 py-10">
+                <h1
+                    class="w-[40px] h-[40px] border border-solid md:border-dotted border-[#08bca5] rounded-full text-center text-[#08bca5] text-3xl">
+                    B</h1>
+            </div>
+
+            <!--Hamburge-->
+            <button id="menu-btn" class="md:hidden text-[#08bca5] focus:outline-none"><i
+                    class='bx bx-menu text-3xl'></i></button>
+
+            <!--Destop-hidden by default-->
+            <nav class=" gap-4 ml-auto hidden md:flex space-x-8 items-center">
+                <a href="#About"
+                    class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:text-white">About</a>
+                <a href="#Experience"
+                    class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:text-white">Experience</a>
+                <a href="#Work"
+                    class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:text-white">Work</a>
+                <a href="#Contact"
+                    class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white">Contact</a>
+
+                <div>
+                    <button
+                        class="px-5 py-1 border border-solid rounded-md border-[#08bca5] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white">Resume</button>
+                </div>
+            </nav>
+
+
+
+            <!--Nav-hidden by default-->
+
+            <div id="mobile-menu" class=" hidden md:hidden flex flex-col  space-y-4 gap-4 ml-auto">
+                <nav>
+                    <a href="#About"
+                        class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:text-white">About</a>
+                    <a href="#Experience"
+                        class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:text-white">Experience</a>
+                    <a href="#Work"
+                        class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  hover:text-white">Work</a>
+                    <a href="#Contact"
+                        class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white">Contact</a>
+                </nav>
+
+                <div>
+                    <button
+                        class="px-5 py-1 border border-solid rounded-md border-[#08bca5] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white">Resume</button>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <section class="px-52 py-32">
+        <div class="flex-col md:flex-row items-center justify-between w-11/12 md:w-3/4 mx-auto mt-10 space-y-8 md:space-y-0">
+            <div class="w-full md:w-1/2 text-center md:text-left font-bold font-sans">
+                <span class="text-base mb-10 text-[#08bca5]">Hi my name is</span>
+                <h1 class=" text-white md:text-6xl mt-6 mb-4 text-3xl"> Ehinju Benjmain</h1>
+                <span class="text-[#8493af] text-3xl">I design & build things for the web.</span>
+
+                <article class=" text-wrap text-sm text-[#8493af] my-6 leading-relaxed">I am a frontend Developer
+                    specialized in building interesting mobile first responsive website 
+                    (using html and tailwind css) for clients and companies in all ramifications.
+                    Currently, I am focused on building accessbile, human responsive websites with <a
+                        href="https://blockfuselabs.com/" class="text-[#08bca5]">Blockfuse Labs.</a>
+                </article>
+            </div>
+        
+    
+            <div class="mt-24 mb-20">
+                <button
+                    class="border border-solid border-[#08bca5] text-[#08bca5] px-6 py-3 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white">checkout
+                    my works!</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="#About">
+        <h1 class="text-center pt-32 text-5xl text-[#08bca5]">About</h1>
+        <article class="text-wrap text-center px-80 py-32 text-white text-4xl leading-loose"> <span
+                class=" text-[#08bca5] text-7xl font-bold">"</span>I am 25years old born and brought up in Benue state,
+            but originated from ondo state yoruba by tribe.
+            I Studied Fishereies and Aqucature in the Federal University of Agriculture, makurdi Benues state,
+            graaduated in 2018 and
+            currently serving in Jos platuea state. Passionate Web3 enthusiast with experience in building and managing
+            vibrant online Communities.
+            I like any new clothes,sneakers ,horror movies to be specific and anything serial documentaries. I also love
+            anything new meals and traveling
+            and manage communities. Currently working with Blockfuse Lab as the cuurent cokmunity manager <span
+                class=" text-[#08bca5] text-7xl font-bold"> "</span></article>
+
+    </section>
+</body>
+
+</html>
